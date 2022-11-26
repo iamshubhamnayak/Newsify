@@ -214,22 +214,35 @@ nav ul {
 }
 
 /*International*/
-.International-head {
+#International {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 1, 1), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url('img/uk.jpeg');
+  background-size: cover;
+  background-position: center;
   color: white;
-  padding: 3rem;
-  min-height: 30vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .International-head h3 {
   padding: 1rem;
+}
+
+.International-head {
+  width: 90%;
+  margin: auto;
+}
+
+.International-head h2 {
+  padding: 1rem 0rem;
+  text-decoration: ;
+}
+
+.International-head h3 {
+  padding: 4rem 0rem;
 }
 
 .cards {
