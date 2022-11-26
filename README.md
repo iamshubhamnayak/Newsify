@@ -1,2 +1,2 @@
-# Travelin
-Travelin | Travel Website based in India
+# Newsify
+News website Template/Mockup
